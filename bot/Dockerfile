@@ -16,4 +16,4 @@ RUN playwright install chromium --with-deps
 
 # Run your Python script
 CMD ["python", "main.py"]
-#CMD gunicorn bot:app & python3 main.py
+#CMD ["python", "main.py"]
